@@ -1,0 +1,20 @@
+.map {
+    position: relative;
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      background-color: rgba($black, 0.6);
+      inset: 0;
+    }
+    iframe {
+      width: 100%;
+    }
+    .icon-rotate {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+    }
+  }

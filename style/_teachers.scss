@@ -1,0 +1,24 @@
+.teacher {
+    article {
+      margin-top: 30px;
+    }
+    .card {
+      text-align: center;
+      p {
+        font-size: 1.3rem;
+      }
+      a {
+        font-size: 2rem;
+        i {
+          color: $primaryColor;
+          transition: transform $transition;
+          &:hover {
+            transform: rotate(30deg);
+          }
+        }
+        &:not(:last-child) {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
